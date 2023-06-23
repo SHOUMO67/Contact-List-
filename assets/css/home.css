@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #05d3e1f5, #c003fa);
+}
+.head{
+    text-align: center;
+    margin: 50px;
+    color: rgb(141, 251, 14);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    
+}
+.container{
+    max-width: 50%;
+    margin-left: 20.3rem;
+    justify-content: center;
+    align-items: center;
+}
+.container ul{
+    padding: 17px;
+    list-style: none;
+}
+.con{
+    padding: 0px 0px 0px 0px;
+    border: 1px solid rgb(214, 65, 244);
+    border-radius: 25px;
+    box-shadow: 1px 2px 1px 1px rgb(191, 76, 227);
+    color: rgb(253, 249, 249);
+    background-color: rgb(228, 59, 251);
+    display: flex;
+    margin-top: 7px;
+}
+
+.con .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0px 0px 0px 10px;
+    
+}
+.con .del{
+    width: 10px;
+    margin-top: 4px;
+    padding: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#za {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+       
+} 
+#za input{
+    padding: 10px;
+    margin-left: 10px;
+    background-color:#37eaf7f5;
+    color: rgb(252, 253, 253);
+    border: 0px solid transparent;
+    border-radius: 25px;
+    
+    
+}
+#jo{
+    width: 5%;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(234, 0, 255);
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    text-decoration: none;
+
+    
+}
+#jo:hover{
+        background: rgb(248, 37, 97);
+        transform: scale(1.1);
+        color: bisque;
+        transition: all .6s;
+}
+
+.con:hover{
+    background-color: #892ff7;
+    box-shadow: 1px 2px 1px 1px #7b36cf ;
+    transform: scale(.9);
+    color: bisque;
+    transition: ease-in .3s;
+    cursor: pointer;
+
+}
+
+.del:hover{
+    transform: scale(1.4);
+    color: red !important;
+    
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Bold italic;
+}
+.head:hover{
+    transform: scale(1.7);
+    transition: ease-in .5s;
+    color: yellow;
+
+}
+
